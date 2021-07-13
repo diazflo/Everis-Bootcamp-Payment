@@ -9,4 +9,5 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 public class Person {
     private String phoneNumber;
+    private String name;
 }

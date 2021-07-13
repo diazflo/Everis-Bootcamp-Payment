@@ -23,6 +23,7 @@ public class PaymentController {
 
     @PostMapping("/createPayment")
     public Mono<Payment> createPayment(@RequestBody Payment payment){
+        log.info(payment.getPersonRec().getPhoneNumber());
         return service.createPayment(payment);
     }
 }
