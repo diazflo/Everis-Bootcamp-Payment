@@ -1,6 +1,6 @@
 package com.everis.payment;
 
-import com.everis.payment.controller.Payment;
+import com.everis.payment.entity.Payment;
 import com.everis.payment.entity.Person;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

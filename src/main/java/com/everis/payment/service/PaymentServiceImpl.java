@@ -1,6 +1,6 @@
 package com.everis.payment.service;
 
-import com.everis.payment.controller.Payment;
+import com.everis.payment.entity.Payment;
 import com.everis.payment.kafka.kpayment.KafkaPayment;
 import com.everis.payment.repository.PaymentRepository;
 import lombok.extern.slf4j.Slf4j;

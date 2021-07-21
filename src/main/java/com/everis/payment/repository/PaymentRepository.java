@@ -1,6 +1,6 @@
 package com.everis.payment.repository;
 
-import com.everis.payment.controller.Payment;
+import com.everis.payment.entity.Payment;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 

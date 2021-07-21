@@ -1,6 +1,6 @@
 package com.everis.payment.service;
 
-import com.everis.payment.controller.Payment;
+import com.everis.payment.entity.Payment;
 import reactor.core.publisher.Mono;
 
 public interface PaymentService {

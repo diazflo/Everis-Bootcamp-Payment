@@ -1,5 +1,6 @@
 package com.everis.payment.controller;
 
+import com.everis.payment.entity.Payment;
 import com.everis.payment.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

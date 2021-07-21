@@ -1,6 +1,5 @@
-package com.everis.payment.controller;
+package com.everis.payment.entity;
 
-import com.everis.payment.entity.Person;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
